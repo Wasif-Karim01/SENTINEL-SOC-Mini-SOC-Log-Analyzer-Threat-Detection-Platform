@@ -1,0 +1,9 @@
+timestamp,event_id,hostname,username,source_ip,destination_ip,event_type,message
+2026-11-12T02:20:01Z,4625,WIN-DC01.corp.example,finance_mgr,198.51.100.77,10.10.0.5,authentication_failure,"An account failed to log on. SubStatus: 0xC000006A (Bad password)"
+2026-11-12T02:20:15Z,4625,WIN-DC01.corp.example,finance_mgr,198.51.100.77,10.10.0.5,authentication_failure,"An account failed to log on. SubStatus: 0xC000006A (Bad password)"
+2026-11-12T02:20:30Z,4625,WIN-DC01.corp.example,finance_mgr,198.51.100.77,10.10.0.5,authentication_failure,"An account failed to log on. SubStatus: 0xC000006A (Bad password)"
+2026-11-12T02:20:42Z,4625,WIN-DC01.corp.example,finance_mgr,198.51.100.77,10.10.0.5,authentication_failure,"An account failed to log on. SubStatus: 0xC000006A (Bad password)"
+2026-11-12T02:21:05Z,4624,WIN-DC01.corp.example,finance_mgr,198.51.100.77,10.10.0.5,authentication_success,"An account was successfully logged on. Logon Type: 10 (RemoteInteractive)"
+2026-11-12T02:21:18Z,4672,WIN-DC01.corp.example,Administrator,198.51.100.77,10.10.0.5,privilege_escalation,"Special privileges assigned to new logon: SeDebugPrivilege, SeTakeOwnershipPrivilege"
+2026-11-12T02:22:00Z,4688,WIN-DC01.corp.example,Administrator,198.51.100.77,10.10.0.5,process_creation,"A new process has been created: powershell.exe -nop -w hidden -enc SQBFAFgA"
+2026-11-12T10:05:12Z,4624,WIN-WS14.corp.example,nabila_hr,10.10.2.45,10.10.0.5,authentication_success,"An account was successfully logged on. Logon Type: 3 (Network)"
